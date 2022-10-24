@@ -316,6 +316,7 @@ textarea:focus {
 .main {
   padding: 10rem 0;
   background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;
+  background-position: 50% 50%;
 }
 
 .main h1 {
@@ -379,7 +380,6 @@ textarea:focus {
 .glazing_block a {
   font-size: 1.8rem;
   font-weight: 600;
-  text-decoration: underline;
   /*&:focus {
 				text-decoration: none;
 				color: #454545;
@@ -505,8 +505,6 @@ textarea:focus {
   font-size: 2rem;
   font-weight: 600;
   color: #000000;
-  text-transform: uppercase;
-  border-bottom: 1px dotted #000000;
 }
 
 .decoration_item a:hover {
@@ -535,7 +533,7 @@ textarea:focus {
 }
 
 .decoration_item .after_click {
-  border-top: 1rem solid #0089cd;
+  border-top: .3rem solid #0089cd;
   height: 8rem;
   padding: 2rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), color-stop(0%, #ebebeb), to(rgba(255, 255, 255, 0)));
